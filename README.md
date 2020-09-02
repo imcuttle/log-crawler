@@ -12,9 +12,7 @@
 ## Installation
 
 ```bash
-npm install log-crawler
-# or use yarn
-yarn add log-crawler
+npm install log-crawler -g
 ```
 
 ## Usage
@@ -25,12 +23,6 @@ yarn add log-crawler
 npx log-crawler "NODE_ENV=production npm start" --dir=/logs/data/
 
 npx log-crawler --help
-```
-
-### Package
-
-```javascript
-const logCrawler = require('log-crawler')
 ```
 
 ## Contributing
